@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+main(){
+  unsigned int prix,prixt=0;
+  do {
+  printf("the prix of the article : ");
+  scanf("%d", &prix);
+  prixt+=prix;
+  printf("the total prix is : %d", prixt);
+  }while (prix>=0);
+return 0;
+}
